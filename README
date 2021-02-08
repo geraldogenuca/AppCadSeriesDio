@@ -1,0 +1,8 @@
+App Cadastro Simples de Series, cadastro em memória.
+
+- Programa para cadastro de séries, formato simples, com cadastro, atualização, exclusão,e busca.
+
+* Foi criada uma classe abstrata EntidadeBase para ter Id todas as classes que herda dela.
+* A classe Serie herda a classe EntidadeBase.
+* Foi criada uma classe de repositorio "SerieRepositorio" que implementa uma interface e o repositorio, serve
+  para determina que tenha os metodos de listagem, retorno de Id, listagem, inserir, excluir, etc.
